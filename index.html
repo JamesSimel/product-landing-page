@@ -1,0 +1,95 @@
+<head>
+    <title>Landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/24cf75c541.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+      <header id="header">
+        <img id="header-img" src="logo.png">
+        <nav class="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-to-get-started">Get Started</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="togglebtn">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+      </header>
+      <section id="form-section">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h1>Become A Pro Software Engineer in just 5months and become job-ready!</h1>
+          <label for="email" style="font-size: 1.6rem; margin-top: 1%;">Email<l/abel>
+          <input 
+           id="email"
+           type="email" 
+           name="email"
+           placeholder="Enter Email" required>
+          <input type="submit" value="GET STARTED" id="submit">
+      </form>
+      </section>
+          
+      <section id="features">
+        <div id="feature">
+          <img src="frontend.png" alt="front-end-pic" style="max-width: 100%; height: auto;">
+          <div class="col">
+            <h1>Front-End</h1>
+            <p>You will learn all the Front-End technologies that are in-demand.For example react,CSS,HTML,JS</p>
+          </div>
+        </div>
+        <div id="feature"> 
+          <img src="back.png" alt="backend-pic">
+          <div class="col">
+            <h1>Back-End</h1>
+            <p>You will learn to connect the front-end to the back-end using databases and other technologies: MongoDB,Express,NodeJs.</p> 
+          </div>
+        </div>
+        <div id="feature">
+          <img src="engineer.png" alt="software-engineer">
+          <div class="col">
+            <h1>Full-Stack-Deeloper/Software-Engineer</h1>
+            <p>Be an an all-rounded developer who can build any possible app: android, AI, iOS, Web and Learn security too.</p>
+          </div>
+        </div>
+      </section>
+      <section id="how-to-get-started">
+        <iframe
+              id="video"
+              height="315"
+              src="https://www.youtube.com/embed/yXnvmboXbFo?rel=0&amp;controls=0&amp;showinfo=0"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+      </section>
+      <section id="pricing">
+        <div class="price-card">
+          <h2>Front-End</h2>
+          <span>$300</span>
+          <button>SELECT</button>
+        </div>
+        <div class="price-card">
+          <h2>Back-End</h2>
+          <span>$350</span>
+          <button>SELECT</button>
+        </div>
+        <div class="price-card">
+          <h2>Software Engineer</h2>
+          <span>$430</span>
+          <button>SELECT</button>
+        </div>
+      </section>
+      <footer>
+        <p style="padding: 0px 10px 10px;">Copy &copy; Right, 2022</p> 
+        <p style="padding: 0px 10px 10px;">Privacy</p>
+        <p style="padding: 0px 10px 10px;">Contact</p>
+        <p style="padding: 0px 10px 10px;">Terms</p>
+      </footer>
+  </div>
+   
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  <script src="index.js"></script>
+</body>
